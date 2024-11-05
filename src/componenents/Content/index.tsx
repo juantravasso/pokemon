@@ -121,7 +121,7 @@ export function ContentContainer({ searchQuery }: ContentContainerProps) {
     };
 
     if (loading) {
-        return <LoadingContainer>Carregando...</LoadingContainer>;
+        return <LoadingContainer>Aguarde um momento, carregando...</LoadingContainer>;
     }
 
     return (
